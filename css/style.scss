@@ -99,9 +99,10 @@ body {
 
 
 
-main{
+.main{
     color:#ffffff;
     flex:1;
+    
 }
 
 
@@ -168,7 +169,7 @@ a.resize{
       display : block;
       text-decoration : none;
       color : white;
-      font-size: .1rem;
+      font-size: 10px;
       padding : 5px 5px;
     }
   
@@ -187,3 +188,13 @@ a.resize{
 }
 
 
+.title{
+  width: 100%;
+  min-height: 80px;
+  font-size: larger;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  margin-top:80px;
+  position: absolute;
+}

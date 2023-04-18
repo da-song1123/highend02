@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HIGHEND</title>
-    <script src="/js/header.js"></script>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/js/header.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
@@ -14,15 +14,52 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
-<body> 
-  
-    <div  data-include-path="../include/gym_header.html"></div>
+<body>
+    <!--HEADER-->
+    <div id="project-wrapper">
+        <div id="project-container">
+          
+          <nav>
+            
+            <p onclick="home(e)">HIGHEND PT</p>
+            <p>ABOUT</p>
+            <div class="dropdown">
+            <p>FACILITIES</p>
+            <div class="dropdown-content">
+              <a href="#" class="resize" style="padding-left: 0px; padding-right: 10px;">PHOTO</a>
+              <a href="#" class="resize" style="padding-left: 0px; padding-right: 10px;">INFO</a>
+            </div>
+          </div>
+            <div class="dropdown">
+            <p>MEMBERSHIP</p>
+            <div class="dropdown-content">
+              <a href="#">1:1 PT</a>
+              <a href="#">2:1 PT</a>
+              <a href="#">4:1 PT</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <p>COMMUNITY</p>
+            <div class="dropdown-content">
+              <a href="#">EVENT</a>
+              <a href="../faq.html">CONTACT</a>
+            </div>
+          </div>
+          </nav>
+        
+        </div>
+      </div>
 
     <div class="main">
-        <h1>메인</h1>
+        <div class="title">
+            <p>FAQ</p>
+            
+        </div>
     </div>
 
-    <div id="copyright">
+
+      <!--FOOTER-->
+      <div id="copyright">
         
         <div class="txt" >
          <div class="txt_content" >
@@ -43,27 +80,5 @@
      <area shape="rect" coords="42, 13, 67, 36" href="https://www.instagram.com" alt="인스타" target="_blank">
      <area shape="rect" coords="84, 13, 109, 36" href="http://www.naver.com" alt="네이버" target="_blank">
  </Map>
-    <script>
- 
-        window.addEventListener('load', function() {
-            var allElements = document.getElementsByTagName('*');
-            Array.prototype.forEach.call(allElements, function(el) {
-                var includePath = el.dataset.includePath;
-                if (includePath) {
-                    var xhttp = new XMLHttpRequest();
-                    xhttp.onreadystatechange = function () {
-                        if (this.readyState == 4 && this.status == 200) {
-                            el.outerHTML = this.responseText;
-                        }
-                    };
-                    xhttp.open('GET', includePath, true);
-                    xhttp.send();
-                }
-            });
-        });
- 
-    </script>
-    
-   
 </body>
 </html>

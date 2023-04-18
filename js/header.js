@@ -1,5 +1,5 @@
 function home(e){
-    window.location.href='#'
+    window.location.href='../index.html'
 }
 
 function about(){
