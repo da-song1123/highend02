@@ -139,5 +139,9 @@ main {
   background-color: black;
   z-index: 0;
 }
+#copyright .mapImg {
+  width: 111px;
+  height: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */
