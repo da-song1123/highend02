@@ -17,7 +17,7 @@
 
     <div id="copyright">
         
-           <div class="txt" >
+           <div class="txt">
             <div class="txt_content" >
                 상호명 : HIGHEND PILATES | 대표 : 조희수 | 사업자등록번호 : 713-24-01547
                 <br>

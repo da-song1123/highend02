@@ -81,7 +81,6 @@ body #project-wrapper #project-container nav p i {
 #copyright .txt {
   position: relative;
   z-index: -1;
-  width: 80vh;
 }
 
 #copyright {
@@ -89,6 +88,9 @@ body #project-wrapper #project-container nav p i {
   width: 100%;
   background-color: #425946;
   z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 #copyright .mapImg {
   width: 111px;
