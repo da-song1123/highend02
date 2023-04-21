@@ -1,0 +1,213 @@
+//@font-face {
+  //  font-family: 'gmarket';
+   // src: url('/font/GmarketSansTTFMedium.woff') format('woff');
+//}
+html{
+    height: 100%;
+}
+
+#wrap{
+  min-width: 320px;
+}
+
+$primary: #000000;
+$primary-light: #000000;
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  color: #425946;
+  min-height: 100vh;
+  font-family: 'Poppins', 'Noto Sans KR',sans-serif;
+  background: #425946;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  #project-wrapper {
+    //height: 100vh;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    
+    #project-container { 
+      height: 50px;
+      min-width: 320px;
+      width: 100%;
+      position: relative;
+      z-index: 2;
+      background: #425946;
+      
+      
+      nav {
+        //line-height: 50px;
+        font-size: .6em;
+        color: #F2D8C2;
+        text-align: center;
+        position: relative;
+        width: 100%;
+       
+
+        p {
+            text-decoration: none;
+            color: #f6dfcb;
+          display: inline-block;
+          padding: 0 20px;
+          cursor: pointer;
+          
+          &:hover {
+            opacity: .8;
+            color: #f6dfcb;
+          }
+          
+          i {
+            margin-left: 2px;
+            font-size: .9em;
+          }
+        }
+        
+      
+   
+      }
+    }
+  }
+  
+
+}
+
+
+
+
+@media all and (max-width:1024px){
+
+}
+
+@media all and (max-width:768px){
+
+}
+
+
+
+.main{
+    color:#f6dfcb;
+    flex:1;
+    
+}
+
+
+
+#copyright .txt .txt_content{
+    float: left;
+    text-align: left;
+    position: relative;
+    margin-left: 20%;
+    padding-top: 1%;
+    color:#f6dfcb;
+    height: 50px;
+    font-size: 1px;
+    transform: translate(-50%, -50%) scale(0.7);
+    display: inline-block;
+}
+
+#copyright .txt{
+    position: relative;
+    z-index: -1;
+}
+
+
+#copyright{
+    height: 60px;
+    width: 100%;
+    background-color: #425946;
+    z-index: 0;
+    
+    .mapImg{
+      width: 111px;
+      height: 50px;
+     display: inline-block;
+    }
+
+    img{
+    
+    }
+
+    .txt_content_copy{
+      opacity: 0.8;
+    }
+}
+
+
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+
+a.resize{
+  
+  padding:10px;
+}
+
+.dropdown-content{
+  display : none;
+   position : absolute;
+   z-index : 1; /*다른 요소들보다 앞에 배치*/
+   font-weight: 200;
+   background-color: transparent;
+   min-width : 100px;
+   
+    a{
+      display : block;
+      text-decoration : none;
+      color : #f6dfcb;
+      font-size: 10px;
+      padding : 5px 5px;
+    }
+     
+ }
+
+.dropdown-content a:hover{
+  opacity: .8;
+  
+  
+  
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.title{
+  width: 100%;
+  min-height: 80px;
+  font-size: larger;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  margin-top:80px;
+  position: absolute;
+}
+
+.first{
+  width: 100%;
+  max-height: 590px;
+}
+
+hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
