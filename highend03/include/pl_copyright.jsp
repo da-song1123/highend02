@@ -29,9 +29,10 @@
             </div>
          
         </div>
-        <div class="mapImg">
-            <a><img src="/img/link_img01.png" alt="link" usemap="#link" href="#"></a>
-        </div>
+       
+    </div>
+    <div class="mapImg">
+        <a><img src="/img/link_img01.png" alt="link" usemap="#link" href="#"></a>
     </div>
     </div>
 

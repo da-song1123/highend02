@@ -81,6 +81,7 @@ body #project-wrapper #project-container nav p i {
 #copyright .txt {
   position: relative;
   z-index: -1;
+  width: 80vh;
 }
 
 #copyright {
