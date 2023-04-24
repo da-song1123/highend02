@@ -1,19 +1,19 @@
 function home(e){
-    window.location.href='../index.html'
+    window.location.href='#'
 }
 
 function about(){
-    window.location.href='../about.html'
+    window.location.href='#'
 }
 
 function facilities(){
-    window.location.href='../facilities.html'
+    window.location.href='#'
 }
 
 function membership(){
-    window.location.href='../membership.html'
+    window.location.href='#'
 }
 
 function community(){
-    window.location.href='../community.html'
+    window.location.href='#'
 }

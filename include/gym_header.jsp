@@ -42,6 +42,7 @@
         <p>COMMUNITY</p>
         <div class="dropdown-content">
           <a href="#">EVENT</a>
+          <a href="#">FAQ</a>
           <a href="../faq.html">CONTACT</a>
         </div>
       </div>
