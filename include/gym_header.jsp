@@ -26,8 +26,9 @@
         <div class="dropdown">
         <p>FACILITIES</p>
         <div class="dropdown-content">
-          <a href="#" class="resize" style="padding-left: 0px; padding-right: 10px;">PHOTO</a>
           <a href="#" class="resize" style="padding-left: 0px; padding-right: 10px;">INFO</a>
+          <a href="#" class="resize" style="padding-left: 0px; padding-right: 10px;">PHOTO</a>
+          
         </div>
       </div>
         <div class="dropdown">
@@ -41,9 +42,10 @@
       <div class="dropdown">
         <p>COMMUNITY</p>
         <div class="dropdown-content">
-          <a href="#">EVENT</a>
           <a href="#">FAQ</a>
-          <a href="../faq.html">CONTACT</a>
+          <a href="#">EVENT</a>
+          
+          
         </div>
       </div>
       </nav>

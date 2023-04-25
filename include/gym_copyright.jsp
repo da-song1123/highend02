@@ -16,9 +16,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="main">
-        <h1>메인</h1>
-    </div>
+    
 
     <div id="copyright">
         
@@ -36,9 +34,9 @@
         </div>
        
     </div>
-    <div class="mapImg">
+   <!-- <div class="mapImg">
         <a><img src="/img/link_img01.png"  alt="link" usemap="#link" href="#"></a>
-    </div>
+    </div>-->
     </div>
 
     <Map name="link">
