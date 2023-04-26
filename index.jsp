@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/style.css">
    <link rel="stylesheet" href="/font/fonts.jsp">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  
 </head>
 <body> 
   
@@ -22,8 +23,8 @@
 
         <div id="first" class="swiper">
             <ul class="swiper-wrapper">
-                <li class="swiper-slide"><img src="/img/01.jpg" alt="1"></li>
-                <li class="swiper-slide"><img src="/img/02.jpg" alt="2"></li>
+                <li class="swiper-slide"></li>
+                <li class="swiper-slide"></li>
             </ul>
         </div>
 

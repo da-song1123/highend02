@@ -6,6 +6,11 @@ html{
     height: 100%;
 }
 
+ul{
+  list-style: none;
+  float: left;
+}
+
 #wrap{
   min-width: 320px;
 }
@@ -146,13 +151,11 @@ body {
 
     .txt_content_copy{
       opacity: 0.8;
+      padding-bottom: 10px;
     }
 }
 
-.dropdown{
-  position: relative;
-  display: inline-block;
-}
+
 
 
 a.resize{
@@ -160,40 +163,49 @@ a.resize{
   padding:10px;
 }
 
-.dropdown-content{
-  display : none;
-   position : absolute;
-   z-index : 1; /*다른 요소들보다 앞에 배치*/
-   font-weight: 200;
-   background-color: transparent;
-   min-width : 100px;
-   
-  
 
-   
-    a{
-      display : block;
-      text-decoration : none;
-      color : white;
-      font-size: 10px;
-      padding : 5px 5px;
+.dropdown02{
+  position: relative;
+  display: inline-block;
+  &:hover{
+    .dropdown-content02{
+      a{
+        display: block;
+      }
+      
     }
-  
-   
-   
- }
+  }
 
-.dropdown-content a:hover{
-  opacity: .8;
-  
-  
-  
 }
-.dropdown:hover .dropdown-content {
+.dropdown-content02{
+  display: none;
+  position : absolute;
+  z-index : 1; /*다른 요소들보다 앞에 배치*/
+  font-weight: 200;
+  background-color: black;
+  opacity: 0.8;
+  //min-width : 100px;
+ width: 473px;
+ div{
+  display: inline-block;
+}
+  a{
+    display : block;
+    text-decoration : none;
+    color : white;
+    font-size: 10px;
+    padding : 5px 5px;
+  }
+}
+
+
+.dropdown02:hover .dropdown-content02 {
   display: block;
 }
-
-
+.dropdown-content02 a:hover{
+  opacity: .8;
+  
+}
 .title{
   width: 100%;
   min-height: 80px;
@@ -207,7 +219,8 @@ a.resize{
 
 #first{
   width: 100%;
-  max-height: 590px;
+ // max-height: 590px;
+  background-color: #ffffff;
 }
 
 hr{
@@ -215,6 +228,8 @@ hr{
   margin-bottom: 5px;
 }
 
+
+// swiper 
 .swiper{
   width: 100%;
   
@@ -228,3 +243,18 @@ hr{
 
 .swiper-button-prev{display: none;}
 .swiper-button-next{display: none;}
+
+
+// header02 
+//.dropdown-content02{
+  //display: block;
+
+//}
+
+@for $i from 1 through 4{
+  .num#{$i}{
+    width: 50px;
+    height: 75px;
+  }
+}
+

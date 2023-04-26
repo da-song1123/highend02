@@ -3,6 +3,11 @@ html {
   height: 100%;
 }
 
+ul {
+  list-style: none;
+  float: left;
+}
+
 #wrap {
   min-width: 320px;
 }
@@ -89,26 +94,34 @@ body #project-wrapper #project-container nav p i {
 }
 #copyright .txt_content_copy {
   opacity: 0.8;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
+  padding-bottom: 10px;
 }
 
 a.resize {
   padding: 10px;
 }
 
-.dropdown-content {
+.dropdown02 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown02:hover .dropdown-content02 a {
+  display: block;
+}
+
+.dropdown-content02 {
   display: none;
   position: absolute;
   z-index: 1; /*다른 요소들보다 앞에 배치*/
   font-weight: 200;
-  background-color: transparent;
-  min-width: 100px;
+  background-color: black;
+  opacity: 0.8;
+  width: 473px;
 }
-.dropdown-content a {
+.dropdown-content02 div {
+  display: inline-block;
+}
+.dropdown-content02 a {
   display: block;
   text-decoration: none;
   color: white;
@@ -116,12 +129,12 @@ a.resize {
   padding: 5px 5px;
 }
 
-.dropdown-content a:hover {
-  opacity: 0.8;
+.dropdown02:hover .dropdown-content02 {
+  display: block;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.dropdown-content02 a:hover {
+  opacity: 0.8;
 }
 
 .title {
@@ -137,7 +150,7 @@ a.resize {
 
 #first {
   width: 100%;
-  max-height: 590px;
+  background-color: #ffffff;
 }
 
 hr {
@@ -161,6 +174,26 @@ hr {
 
 .swiper-button-next {
   display: none;
+}
+
+.num1 {
+  width: 50px;
+  height: 75px;
+}
+
+.num2 {
+  width: 50px;
+  height: 75px;
+}
+
+.num3 {
+  width: 50px;
+  height: 75px;
+}
+
+.num4 {
+  width: 50px;
+  height: 75px;
 }
 
 /*# sourceMappingURL=style.css.map */
