@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/css/style.css">
    <link rel="stylesheet" href="/font/fonts.jsp">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-  
+    <link rel="icon" href="img/free-icon-exercise-4205505.png" type="image/x-icon" sizes="16x16">
 </head>
 <body> 
   
