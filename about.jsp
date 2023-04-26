@@ -15,6 +15,8 @@
 <body>
     <div id="wrap">
         <%@ include file="../include/gym_header.jsp" %>
+
+        <div id="first"></div>
     </div>
 
     <%@ include file="../include/gym_copyright.jsp" %>
