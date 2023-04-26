@@ -22,26 +22,26 @@
           <div class="dropdown02">
 
 
-            <p>HIGHEND PT</p>
-            <p>ABOUT</p>
-            <p>FACILITIES</p>
-            <p>MEMBERSHIP</p>
-            <p>COMMUNITY</p>
+            <p><a href="/index.jsp">HIGHEND PT</a></p>
+            <p><a href="/about.jsp">ABOUT</a></p>
+            <p><a href="">FACILITIES</a></p>
+            <p><a href="">MEMBERSHIP</a></p>
+            <p><a href="">COMMUNITY</a></p>
 
 
             <div class="dropdown-content02">
-              <ul style="padding-left: 200px;">
-                <li><a href="#">INFO</a></li>
-                <li><a href="#">PHOTO</a></li>
+              <ul style="padding-left: 225px;">
+                <li><a href="/facilities/info.jsp">INFO</a></li>
+                <li><a href="/facilities/photo.jsp">PHOTO</a></li>
               </ul>
-              <ul style="padding-left:58px;">
-                <li><a href="#">1:1 PT</a></li>
-                <li><a href="#">2:1 PT</a></li>
-                <li><a href="#">4:1 PT</a></li>
+              <ul style="padding-left:70px;">
+                <li><a href="/membership/personal.jsp">1:1 PT</a></li>
+                <li><a href="/membership/double.jsp">2:1 PT</a></li>
+                <li><a href="/membership/quadruple.jsp">4:1 PT</a></li>
               </ul>
-              <ul style="padding-left:68px;">
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">EVENT</a></li>
+              <ul style="padding-left:75px;">
+                <li><a href="/commnuity/faq.jsp">FAQ</a></li>
+                <li><a href="/commnuity/event.jsp">EVENT</a></li>
               </ul>
 
             </div>
