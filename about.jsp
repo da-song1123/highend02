@@ -16,9 +16,20 @@
     <div id="wrap">
         <%@ include file="../include/gym_header.jsp" %>
 
-        <div id="first"></div>
+        <div id="back">
+        <div id="about">
+            <div class="pic" style="color:black;">
+                이미지
+            </div>
+            <div class="info" style="color:black;">
+                경력사항 등
+            </div>
+        </div>
+    </div>
+    
+    <%@ include file="../include/gym_copyright.jsp" %>
     </div>
 
-    <%@ include file="../include/gym_copyright.jsp" %>
+   
 </body>
 </html>

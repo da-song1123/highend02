@@ -161,6 +161,11 @@ a.resize {
   background-color: #ffffff;
 }
 
+#back {
+  width: 100%;
+  background-color: #ffffff;
+}
+
 hr {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -202,6 +207,28 @@ hr {
 .num4 {
   width: 50px;
   height: 75px;
+}
+
+#about {
+  display: block;
+  width: 100%;
+  height: 730px;
+}
+#about .pic {
+  display: inline-block;
+  border: 1px solid black;
+  width: 500px;
+  margin: 0px auto;
+  height: 500px;
+  margin-top: 150px;
+  margin-left: 350px;
+}
+#about .info {
+  display: inline-block;
+  border: 1px solid black;
+  width: 500px;
+  margin: 0px auto;
+  height: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
