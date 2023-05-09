@@ -14,55 +14,11 @@
     <link rel="icon" href="img/free-icon-exercise-4205505.png" type="image/x-icon" sizes="16x16">
 </head>
 <body> 
-  
-    
 
-    <div id="wrap">
-       <%@ include file="../include/gym_header.jsp" %>
-       
-
-        <div id="first" class="swiper">
-            <ul class="swiper-wrapper">
-                <li class="swiper-slide"></li>
-                <li class="swiper-slide"></li>
-            </ul>
-        </div>
-
-    <!--<div class="swiper-pagination"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>-->
-       
+    <div width="600" style="text-align: center;">
+        <a href="gym.jsp"><img src="/img/2023-05-04_134136.jpg" alt="gym" class="logo" width="300" height="300"></a>
+       <a href="/highend03/index.jsp"><img src="/img/IMG_0521.jpg" alt="pl" class="logo" width="300" height="300"></a>
     </div>
-
-    <%@ include file="../include/gym_copyright.jsp" %>
-    
-
-
-    
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('#first',{
-            direction:'vertical',
-            slidePerView:6,
-            speed:400,
-            spaceBetween : 100,
-            centeredSlides : true,
-            loop : true,
-            pagination : {
-                el:'.swiper-pagination',
-                clickable:true,
-            },
-            autoplay : {
-                delay : 3000,
-                disableOnInteraction : fasle,
-            },
-            navigation:{
-                nextEl : '.swiper-button-next',
-                prevEl : '.swiper-button-prev',
-            }
-        });
-    </script>
-        
     
 </body>
 </html>
